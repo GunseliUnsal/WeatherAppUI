@@ -19,6 +19,6 @@ struct WeatherButton: View{
             .background(Color(backgroundColor))
             .foregroundColor(textColor)
             .font(.system(size: 20, weight: .bold, design: .default))
-            .cornerRadius(10)
+            .clipShape(.buttonBorder)
     }
 }
